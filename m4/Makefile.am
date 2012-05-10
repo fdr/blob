@@ -1,1 +1,1 @@
-EXTRA_DIST = libcurl.m4
+EXTRA_DIST = libcurl.m4 libxml2.m4
