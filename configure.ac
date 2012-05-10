@@ -1,0 +1,12 @@
+AC_INIT([achello], [0.1], [https://libusual.github.com])
+AC_CONFIG_SRCDIR([blob.c])
+AC_CONFIG_HEADER([lib/usual/config.h])
+AC_PREREQ([2.59])
+
+AC_USUAL_PORT_CHECK
+AC_USUAL_PROGRAM_CHECK
+AC_USUAL_HEADER_CHECK
+AC_USUAL_TYPE_CHECK
+AC_USUAL_FUNCTION_CHECK
+
+AC_OUTPUT([antimake.mk])
