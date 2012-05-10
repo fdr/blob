@@ -17,4 +17,4 @@ MAINTAINERCLEANFILES = configure config.guess config.sub install-sh \
 		antimake.mk.in $(USUAL_DIR)/usual/config.h.in
 
 # launch Antimake
-include $(USUAL_DIR)/mk/antimake.mk
+include antimake.mk
