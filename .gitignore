@@ -10,3 +10,17 @@
 *.lai
 *.la
 *.a
+
+# Autoconf'd
+.objs
+antimake.mk
+antimake.mk.in
+config.guess
+config.log
+config.status
+config.sub
+configure
+install-sh
+
+# Output binary
+blob
