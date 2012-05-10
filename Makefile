@@ -1,5 +1,5 @@
 # the automake-style build description for 'blob'
-noinst_PROGRAMS = blob
+bin_PROGRAMS = blob
 blob_SOURCES = blob.c
 
 # location of configured libusual
